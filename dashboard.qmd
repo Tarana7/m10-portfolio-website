@@ -1,0 +1,136 @@
+---
+title: "Credit Union Member Insights Dashboard"
+format:
+  dashboard:
+    theme: cosmo
+---
+
+# Overview
+
+This dashboard explores member perceptions of Employees Federal Credit Union using survey data from Case 31 in IBM 6500.
+
+The analysis focuses on employee service quality and overall member evaluations.
+
+**Data Source:** Case 31 - Employees Federal Credit Union
+
+**Survey Responses:** 128
+
+## Row
+
+### Survey Respondents {.valuebox}
+
+128
+
+### Average Employee Performance {.valuebox}
+
+4.21 / 5
+
+### Positive Overall Ratings {.valuebox}
+
+84.3%
+
+## Row
+
+### Understanding the Results
+
+The survey results suggest that respondents generally have positive perceptions of the credit union.
+
+- **128 respondents** are included in the dataset.
+- **4.21 out of 5** is the average employee performance rating across four service-related questions.
+- **84.3%** of respondents with valid answers rated the credit union Excellent or Good.
+
+### Research Context
+
+The Employees Federal Credit Union case examines member experiences, perceptions of employee service, and evaluations of the credit union.
+
+These indicators can help identify strengths in customer service and potential opportunities for improvement.
+
+**Note:** Seven respondents did not provide an overall evaluation. The positive rating percentage is calculated using 121 valid responses.
+
+## Row
+
+### Employee Service Performance
+
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 5
+#| out-width: "100%"
+#| warning: false
+#| message: false
+
+# Case 31 employee performance averages
+service_ratings <- c(
+  "Courtesy" = 4.352,
+  "Helpfulness" = 4.312,
+  "Professionalism" = 4.078,
+  "Availability" = 4.078
+)
+
+barplot(
+  service_ratings,
+  col = "#2E86AB",
+  main = "Average Employee Service Ratings",
+  ylab = "Average Rating (1-5)",
+  ylim = c(0, 5),
+  las = 1
+)
+```
+
+### Interpretation
+
+The survey results indicate generally favorable evaluations of employee service.
+
+Courtesy received the highest average rating (4.35), followed by helpfulness (4.31).
+
+Professionalism and availability received slightly lower ratings (4.08 each), suggesting potential areas for further investigation.
+
+All four measures received average ratings above 4 out of 5.
+
+**Source:** Employees Federal Credit Union, Case 31 survey data.
+
+## Row
+
+### Overall Member Evaluation
+
+```{r}
+#| echo: false
+#| fig-width: 10
+#| fig-height: 5
+#| out-width: "100%"
+#| warning: false
+#| message: false
+
+# Case 31 survey results for Question 37
+ratings <- c(
+  "Excellent" = 31,
+  "Good" = 71,
+  "Average" = 16,
+  "Poor" = 2,
+  "Very Poor" = 1
+)
+
+barplot(
+  ratings,
+  col = "#2E86AB",
+  main = "Overall Credit Union Evaluation",
+  ylab = "Number of Respondents",
+  ylim = c(0, 80),
+  las = 1
+)
+```
+
+### Interpretation
+
+The majority of respondents evaluated the credit union positively.
+
+- **71 respondents** rated the credit union Good.
+- **31 respondents** rated it Excellent.
+- **16 respondents** selected Average.
+- Only **3 respondents** selected Poor or Very Poor.
+
+Overall, 84.3% of valid respondents provided a positive evaluation.
+
+Seven missing responses were excluded from the chart and percentage calculation.
+
+**Source:** Employees Federal Credit Union, Case 31.

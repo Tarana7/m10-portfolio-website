@@ -1,0 +1,99 @@
+---
+title: "Customizing Quarto with CSS and SCSS"
+format: html
+---
+
+# Website Styling with CSS and SCSS
+
+CSS (Cascading Style Sheets) and SCSS (Sassy CSS) allow developers to customize the appearance of websites.
+
+In Quarto, these tools help create professional, visually appealing websites that improve readability and user experience.
+
+## What Is CSS?
+
+CSS controls how HTML elements appear on a webpage.
+
+It can customize:
+
+- Colors and backgrounds
+- Fonts and text sizes
+- Spacing and alignment
+- Borders and layouts
+
+For example, CSS can change the appearance of headings:
+
+```css
+h1 {
+  color: #2E86AB;
+  font-weight: bold;
+}
+```
+
+## What Is SCSS?
+
+SCSS is an extension of CSS that provides additional features, including variables, nesting, and reusable styling rules.
+
+For example:
+
+```scss
+$primary-color: #2E86AB;
+
+h1 {
+  color: $primary-color;
+}
+```
+
+SCSS can make website styling easier to organize and maintain.
+
+## CSS vs. SCSS
+
+| Feature | CSS | SCSS |
+|---|---|---|
+| Standard browser styling | Yes | Compiles to CSS |
+| Variables | Yes | Yes |
+| Nesting | Yes | Yes |
+| Bootstrap integration | Limited | Strong |
+| Quarto support | Yes | Yes |
+
+## Applying CSS in Quarto
+
+Quarto allows custom CSS files to be included through `_quarto.yml`.
+
+For example:
+
+```yaml
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+```
+
+This configuration tells Quarto to apply the styles defined in `styles.css`.
+
+## Applying SCSS in Quarto
+
+Quarto also supports SCSS files for customizing Bootstrap themes.
+
+For example:
+
+```yaml
+format:
+  html:
+    theme:
+      - cosmo
+      - custom.scss
+```
+
+This allows developers to customize Bootstrap variables and website components.
+
+## Why Styling Matters
+
+A well-designed website improves the user experience by making information easier to find and understand.
+
+For a digital marketing portfolio, consistent colors, readable typography, and organized layouts help communicate professionalism.
+
+## Reflection
+
+Learning CSS and SCSS has helped me understand how website design connects to digital marketing.
+
+Beyond making websites visually appealing, styling can improve usability, accessibility, and the presentation of analytical findings.

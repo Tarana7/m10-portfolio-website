@@ -1,0 +1,65 @@
+---
+title: "Home"
+author: "Tim Arana"
+format: html
+---
+
+# Welcome to My Digital Marketing Portfolio
+
+![Tim Arana](images/profile.png){width="250px" fig-align="center"}
+
+Hello! I'm Tim Arana, a graduate student pursuing a Master of Science in Digital Marketing (MSDM) at California State Polytechnic University, Pomona.
+
+This website showcases my academic experience, technical skills, and projects related to digital marketing, data analytics, and consumer behavior.
+
+## About Me
+
+I am interested in understanding how businesses can use data, technology, and consumer insights to improve marketing strategies and customer experiences.
+
+Through my graduate coursework, I have gained experience with marketing analytics, e-commerce platforms, SQL, and data visualization.
+
+My goal is to continue developing my analytical and technical skills while pursuing opportunities in digital marketing and marketing analytics.
+
+## Education
+
+**California State Polytechnic University, Pomona**
+
+Master of Science in Digital Marketing (MSDM)
+
+Graduate Student
+
+## Technical Skills
+
+-   **Marketing Analytics:** Google Analytics 4 (GA4), Google BigQuery, SQL
+-   **Data Analysis:** R, RStudio, Excel
+-   **Data Visualization:** Tableau, Looker Studio
+-   **E-Commerce:** Shopify, Google Merchant Center
+-   **Web Development:** Quarto, HTML, CSS
+-   **Collaboration:** GitHub, Microsoft Teams
+
+## Career Aspirations
+
+My career goal is to work in digital marketing or marketing analytics, where I can combine data-driven decision-making with creative marketing strategies.
+
+I am particularly interested in marketing technology, customer analytics, e-commerce, and the growing role of artificial intelligence in marketing.
+
+## Featured Project: MSDM Culminating Experience Project
+
+I am currently working on a Culminating Experience Project involving CVRx and Salesforce adoption.
+
+Our project explores opportunities to improve Salesforce engagement and adoption through data analysis and targeted recommendations.
+
+My analytical objective focuses on Salesforce user segmentation and targeted engagement strategies.
+
+## Explore My Portfolio
+
+Use the navigation menu to explore the following sections:
+
+-   **CEP Dashboard:** A dashboard demonstrating marketing analytics and data visualization.
+-   **CSS/SCSS:** How website styling can improve design and usability.
+-   **Quarto Listings:** How Quarto can organize and display portfolio content.
+
+## Contact and Professional Profiles
+
+-   [LinkedIn](https://www.linkedin.com/in/tim-arana-376484263/)
+-   [GitHub](https://github.com/tarana7)

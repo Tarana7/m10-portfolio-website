@@ -1,0 +1,64 @@
+---
+title: "Quarto Listings"
+format: html
+listing:
+  contents: "projects/*.qmd"
+  type: grid
+  sort: "date desc"
+  fields: [image, date, title, description, categories]
+---
+
+# Organizing Portfolio Content with Quarto Listings
+
+Quarto Listings provide a way to organize and display collections of content on a website.
+
+They are particularly useful for professional portfolios, blogs, and project galleries.
+
+## What Are Quarto Listings?
+
+A Quarto Listing automatically generates a collection of pages based on files in a specified directory.
+
+Listings can display information such as project titles, descriptions, dates, and categories.
+
+This makes it easier for visitors to explore content without manually maintaining a long list of links.
+
+## How Listings Work
+
+Quarto uses YAML configuration to define which files should appear in a listing.
+
+For example:
+
+```yaml
+listing:
+  contents: projects
+  type: grid
+  sort: "date desc"
+```
+
+This configuration tells Quarto to display content from a `projects` folder in a grid layout, with the newest entries appearing first.
+
+## Common Listing Formats
+
+| Format | Purpose |
+|---|---|
+| Grid | Displays projects as visual cards |
+| Table | Organizes content into rows and columns |
+| Default | Displays a traditional list of entries |
+
+## Applications to My Portfolio
+
+Quarto Listings could help me organize projects involving:
+
+- Digital marketing analytics
+- SQL and BigQuery
+- E-commerce and Shopify
+- Data visualization
+- Consumer behavior research
+
+As I complete additional projects in the MSDM program, Listings can make my portfolio easier to maintain and navigate.
+
+## Reflection
+
+Learning Quarto Listings has helped me understand how websites can organize content dynamically.
+
+Rather than manually adding new project links, I can use Quarto to automatically display new entries in a consistent format.
