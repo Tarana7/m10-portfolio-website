@@ -1,0 +1,42 @@
+/* M10 Digital Marketing Portfolio */
+
+/* Main headings */
+h1, h2 {
+  color: #2E86AB;
+  font-weight: 700;
+}
+
+/* Navigation bar */
+.navbar {
+  background-color: #17365D;
+}
+
+/* Navigation links */
+.navbar a {
+  color: white;
+}
+
+/* Main page content */
+main {
+  line-height: 1.7;
+}
+
+/* Images */
+img {
+  border-radius: 10px;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* Links */
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

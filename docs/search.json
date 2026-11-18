@@ -1,0 +1,170 @@
+[
+  {
+    "objectID": "listings.html",
+    "href": "listings.html",
+    "title": "Quarto Listings",
+    "section": "",
+    "text": "Quarto Listings provide a way to organize and display collections of content on a website.\nThey are particularly useful for professional portfolios, blogs, and project galleries.\n\n\nA Quarto Listing automatically generates a collection of pages based on files in a specified directory.\nListings can display information such as project titles, descriptions, dates, and categories.\nThis makes it easier for visitors to explore content without manually maintaining a long list of links.\n\n\n\nQuarto uses YAML configuration to define which files should appear in a listing.\nFor example:\nlisting:\n  contents: projects\n  type: grid\n  sort: \"date desc\"\nThis configuration tells Quarto to display content from a projects folder in a grid layout, with the newest entries appearing first.\n\n\n\n\n\n\nFormat\nPurpose\n\n\n\n\nGrid\nDisplays projects as visual cards\n\n\nTable\nOrganizes content into rows and columns\n\n\nDefault\nDisplays a traditional list of entries\n\n\n\n\n\n\nQuarto Listings could help me organize projects involving:\n\nDigital marketing analytics\nSQL and BigQuery\nE-commerce and Shopify\nData visualization\nConsumer behavior research\n\nAs I complete additional projects in the MSDM program, Listings can make my portfolio easier to maintain and navigate.\n\n\n\nLearning Quarto Listings has helped me understand how websites can organize content dynamically.\nRather than manually adding new project links, I can use Quarto to automatically display new entries in a consistent format."
+  },
+  {
+    "objectID": "listings.html#what-are-quarto-listings",
+    "href": "listings.html#what-are-quarto-listings",
+    "title": "Quarto Listings",
+    "section": "",
+    "text": "A Quarto Listing automatically generates a collection of pages based on files in a specified directory.\nListings can display information such as project titles, descriptions, dates, and categories.\nThis makes it easier for visitors to explore content without manually maintaining a long list of links."
+  },
+  {
+    "objectID": "listings.html#how-listings-work",
+    "href": "listings.html#how-listings-work",
+    "title": "Quarto Listings",
+    "section": "",
+    "text": "Quarto uses YAML configuration to define which files should appear in a listing.\nFor example:\nlisting:\n  contents: projects\n  type: grid\n  sort: \"date desc\"\nThis configuration tells Quarto to display content from a projects folder in a grid layout, with the newest entries appearing first."
+  },
+  {
+    "objectID": "listings.html#common-listing-formats",
+    "href": "listings.html#common-listing-formats",
+    "title": "Quarto Listings",
+    "section": "",
+    "text": "Format\nPurpose\n\n\n\n\nGrid\nDisplays projects as visual cards\n\n\nTable\nOrganizes content into rows and columns\n\n\nDefault\nDisplays a traditional list of entries"
+  },
+  {
+    "objectID": "listings.html#applications-to-my-portfolio",
+    "href": "listings.html#applications-to-my-portfolio",
+    "title": "Quarto Listings",
+    "section": "",
+    "text": "Quarto Listings could help me organize projects involving:\n\nDigital marketing analytics\nSQL and BigQuery\nE-commerce and Shopify\nData visualization\nConsumer behavior research\n\nAs I complete additional projects in the MSDM program, Listings can make my portfolio easier to maintain and navigate."
+  },
+  {
+    "objectID": "listings.html#reflection",
+    "href": "listings.html#reflection",
+    "title": "Quarto Listings",
+    "section": "",
+    "text": "Learning Quarto Listings has helped me understand how websites can organize content dynamically.\nRather than manually adding new project links, I can use Quarto to automatically display new entries in a consistent format."
+  },
+  {
+    "objectID": "styling.html",
+    "href": "styling.html",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "CSS (Cascading Style Sheets) and SCSS (Sassy CSS) allow developers to customize the appearance of websites.\nIn Quarto, these tools help create professional, visually appealing websites that improve readability and user experience.\n\n\nCSS controls how HTML elements appear on a webpage.\nIt can customize:\n\nColors and backgrounds\nFonts and text sizes\nSpacing and alignment\nBorders and layouts\n\nFor example, CSS can change the appearance of headings:\nh1 {\n  color: #2E86AB;\n  font-weight: bold;\n}\n\n\n\nSCSS is an extension of CSS that provides additional features, including variables, nesting, and reusable styling rules.\nFor example:\n$primary-color: #2E86AB;\n\nh1 {\n  color: $primary-color;\n}\nSCSS can make website styling easier to organize and maintain.\n\n\n\n\n\n\nFeature\nCSS\nSCSS\n\n\n\n\nStandard browser styling\nYes\nCompiles to CSS\n\n\nVariables\nYes\nYes\n\n\nNesting\nYes\nYes\n\n\nBootstrap integration\nLimited\nStrong\n\n\nQuarto support\nYes\nYes\n\n\n\n\n\n\nQuarto allows custom CSS files to be included through _quarto.yml.\nFor example:\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\nThis configuration tells Quarto to apply the styles defined in styles.css.\n\n\n\nQuarto also supports SCSS files for customizing Bootstrap themes.\nFor example:\nformat:\n  html:\n    theme:\n      - cosmo\n      - custom.scss\nThis allows developers to customize Bootstrap variables and website components.\n\n\n\nA well-designed website improves the user experience by making information easier to find and understand.\nFor a digital marketing portfolio, consistent colors, readable typography, and organized layouts help communicate professionalism.\n\n\n\nLearning CSS and SCSS has helped me understand how website design connects to digital marketing.\nBeyond making websites visually appealing, styling can improve usability, accessibility, and the presentation of analytical findings."
+  },
+  {
+    "objectID": "styling.html#what-is-css",
+    "href": "styling.html#what-is-css",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "CSS controls how HTML elements appear on a webpage.\nIt can customize:\n\nColors and backgrounds\nFonts and text sizes\nSpacing and alignment\nBorders and layouts\n\nFor example, CSS can change the appearance of headings:\nh1 {\n  color: #2E86AB;\n  font-weight: bold;\n}"
+  },
+  {
+    "objectID": "styling.html#what-is-scss",
+    "href": "styling.html#what-is-scss",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "SCSS is an extension of CSS that provides additional features, including variables, nesting, and reusable styling rules.\nFor example:\n$primary-color: #2E86AB;\n\nh1 {\n  color: $primary-color;\n}\nSCSS can make website styling easier to organize and maintain."
+  },
+  {
+    "objectID": "styling.html#css-vs.-scss",
+    "href": "styling.html#css-vs.-scss",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "Feature\nCSS\nSCSS\n\n\n\n\nStandard browser styling\nYes\nCompiles to CSS\n\n\nVariables\nYes\nYes\n\n\nNesting\nYes\nYes\n\n\nBootstrap integration\nLimited\nStrong\n\n\nQuarto support\nYes\nYes"
+  },
+  {
+    "objectID": "styling.html#applying-css-in-quarto",
+    "href": "styling.html#applying-css-in-quarto",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "Quarto allows custom CSS files to be included through _quarto.yml.\nFor example:\nformat:\n  html:\n    theme: cosmo\n    css: styles.css\nThis configuration tells Quarto to apply the styles defined in styles.css."
+  },
+  {
+    "objectID": "styling.html#applying-scss-in-quarto",
+    "href": "styling.html#applying-scss-in-quarto",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "Quarto also supports SCSS files for customizing Bootstrap themes.\nFor example:\nformat:\n  html:\n    theme:\n      - cosmo\n      - custom.scss\nThis allows developers to customize Bootstrap variables and website components."
+  },
+  {
+    "objectID": "styling.html#why-styling-matters",
+    "href": "styling.html#why-styling-matters",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "A well-designed website improves the user experience by making information easier to find and understand.\nFor a digital marketing portfolio, consistent colors, readable typography, and organized layouts help communicate professionalism."
+  },
+  {
+    "objectID": "styling.html#reflection",
+    "href": "styling.html#reflection",
+    "title": "Customizing Quarto with CSS and SCSS",
+    "section": "",
+    "text": "Learning CSS and SCSS has helped me understand how website design connects to digital marketing.\nBeyond making websites visually appealing, styling can improve usability, accessibility, and the presentation of analytical findings."
+  },
+  {
+    "objectID": "projects/sql-portfolio.html",
+    "href": "projects/sql-portfolio.html",
+    "title": "SQL Learning Portfolio",
+    "section": "",
+    "text": "This project documents my progress learning SQL, Intermediate SQL, and Google BigQuery as part of my graduate coursework.\nThe portfolio includes course completion evidence, technical notes, and examples of SQL queries.\nView My SQL Portfolio"
+  },
+  {
+    "objectID": "projects/sql-portfolio.html#project-overview",
+    "href": "projects/sql-portfolio.html#project-overview",
+    "title": "SQL Learning Portfolio",
+    "section": "",
+    "text": "This project documents my progress learning SQL, Intermediate SQL, and Google BigQuery as part of my graduate coursework.\nThe portfolio includes course completion evidence, technical notes, and examples of SQL queries.\nView My SQL Portfolio"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Tim Arana\n\n\nHello! I’m Tim Arana, a graduate student pursuing a Master of Science in Digital Marketing (MSDM) at California State Polytechnic University, Pomona.\nThis website showcases my academic experience, technical skills, and projects related to digital marketing, data analytics, and consumer behavior.\n\n\nI am interested in understanding how businesses can use data, technology, and consumer insights to improve marketing strategies and customer experiences.\nThrough my graduate coursework, I have gained experience with marketing analytics, e-commerce platforms, SQL, and data visualization.\nMy goal is to continue developing my analytical and technical skills while pursuing opportunities in digital marketing and marketing analytics.\n\n\n\nCalifornia State Polytechnic University, Pomona\nMaster of Science in Digital Marketing (MSDM)\nGraduate Student\n\n\n\n\nMarketing Analytics: Google Analytics 4 (GA4), Google BigQuery, SQL\nData Analysis: R, RStudio, Excel\nData Visualization: Tableau, Looker Studio\nE-Commerce: Shopify, Google Merchant Center\nWeb Development: Quarto, HTML, CSS\nCollaboration: GitHub, Microsoft Teams\n\n\n\n\nMy career goal is to work in digital marketing or marketing analytics, where I can combine data-driven decision-making with creative marketing strategies.\nI am particularly interested in marketing technology, customer analytics, e-commerce, and the growing role of artificial intelligence in marketing.\n\n\n\nI am currently working on a Culminating Experience Project involving CVRx and Salesforce adoption.\nOur project explores opportunities to improve Salesforce engagement and adoption through data analysis and targeted recommendations.\nMy analytical objective focuses on Salesforce user segmentation and targeted engagement strategies.\n\n\n\nUse the navigation menu to explore the following sections:\n\nCEP Dashboard: A dashboard demonstrating marketing analytics and data visualization.\nCSS/SCSS: How website styling can improve design and usability.\nQuarto Listings: How Quarto can organize and display portfolio content.\n\n\n\n\n\nLinkedIn\nGitHub"
+  },
+  {
+    "objectID": "index.html#about-me",
+    "href": "index.html#about-me",
+    "title": "Home",
+    "section": "",
+    "text": "I am interested in understanding how businesses can use data, technology, and consumer insights to improve marketing strategies and customer experiences.\nThrough my graduate coursework, I have gained experience with marketing analytics, e-commerce platforms, SQL, and data visualization.\nMy goal is to continue developing my analytical and technical skills while pursuing opportunities in digital marketing and marketing analytics."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Home",
+    "section": "",
+    "text": "California State Polytechnic University, Pomona\nMaster of Science in Digital Marketing (MSDM)\nGraduate Student"
+  },
+  {
+    "objectID": "index.html#technical-skills",
+    "href": "index.html#technical-skills",
+    "title": "Home",
+    "section": "",
+    "text": "Marketing Analytics: Google Analytics 4 (GA4), Google BigQuery, SQL\nData Analysis: R, RStudio, Excel\nData Visualization: Tableau, Looker Studio\nE-Commerce: Shopify, Google Merchant Center\nWeb Development: Quarto, HTML, CSS\nCollaboration: GitHub, Microsoft Teams"
+  },
+  {
+    "objectID": "index.html#career-aspirations",
+    "href": "index.html#career-aspirations",
+    "title": "Home",
+    "section": "",
+    "text": "My career goal is to work in digital marketing or marketing analytics, where I can combine data-driven decision-making with creative marketing strategies.\nI am particularly interested in marketing technology, customer analytics, e-commerce, and the growing role of artificial intelligence in marketing."
+  },
+  {
+    "objectID": "index.html#featured-project-msdm-culminating-experience-project",
+    "href": "index.html#featured-project-msdm-culminating-experience-project",
+    "title": "Home",
+    "section": "",
+    "text": "I am currently working on a Culminating Experience Project involving CVRx and Salesforce adoption.\nOur project explores opportunities to improve Salesforce engagement and adoption through data analysis and targeted recommendations.\nMy analytical objective focuses on Salesforce user segmentation and targeted engagement strategies."
+  },
+  {
+    "objectID": "index.html#explore-my-portfolio",
+    "href": "index.html#explore-my-portfolio",
+    "title": "Home",
+    "section": "",
+    "text": "Use the navigation menu to explore the following sections:\n\nCEP Dashboard: A dashboard demonstrating marketing analytics and data visualization.\nCSS/SCSS: How website styling can improve design and usability.\nQuarto Listings: How Quarto can organize and display portfolio content."
+  },
+  {
+    "objectID": "index.html#contact-and-professional-profiles",
+    "href": "index.html#contact-and-professional-profiles",
+    "title": "Home",
+    "section": "",
+    "text": "LinkedIn\nGitHub"
+  }
+]
