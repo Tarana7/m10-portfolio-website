@@ -1,0 +1,14 @@
+---
+title: "SQL Learning Portfolio"
+description: "A collection of SQL and BigQuery coursework completed through DataCamp."
+date: 2026-10-28
+categories: [SQL, BigQuery, Data Analytics]
+---
+
+## Project Overview
+
+This project documents my progress learning SQL, Intermediate SQL, and Google BigQuery as part of my graduate coursework.
+
+The portfolio includes course completion evidence, technical notes, and examples of SQL queries.
+
+[View My SQL Portfolio](https://tarana7.github.io/ibm-6500-sql-learning-portfolio/)
